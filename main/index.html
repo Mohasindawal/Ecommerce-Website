@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMD's</title>
+    <script src="https://kit.fontawesome.com/5f4063c002.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+ 
+    
+</head>
+<body>
+
+<section id="header">
+   <a href="#"><img src="/logoop.png  " 
+    class="logo"  alt=" Erorr inloading"> </a>
+   
+ <div>
+        <ul id="navbar">
+            <li> <a class="active"  href="Home.html">Home</a></li>
+            <li> <a href="Shop.html">Shop</a></li>
+            <li> <a href="Blog.html">Blog</a></li>     
+            <li> <a href="About.html">About</a></li>
+            <li> <a href="Contact.html">Contact</a></li>
+            <li> <a href="Cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+ </div>
+    
+ </section>
+
+ <section id="hero">
+    <h4> Trade-in-offer</h4>
+    <h2> Super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & up to 60% off!</p>
+    <button class="normal"> Shop Now</button>
+
+ </section>
+
+ <section id="feature" class="section-p1">
+    <div
+        class="fe-box">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw4SEBAQEBIVFRUVGBAXFRUWEBYREBUWFhEXFhUYGRYYHSogGhonGxUVITEhJSkrLi4uFx80OTQtOCgtLisBCgoKDg0OGxAQGyslICUtLS0vLy8tLSsvLS8tLS0tLS0tKystLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMgA/AMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcBBAUCA//EAE0QAAIBAwAFBQsGCwYHAQAAAAABAgMEEQUGEiExE0FRYZEHFBYiUlNxgZKh0SMyk6LB0hczNEJjcnOCsbLhNUNiZIPwFSREVKOzwiX/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAwQFAgEG/8QAMREAAgIBAgMECgMAAwAAAAAAAAECAxEEEiExQRNRYZEUUlNxgaGxwdHwIjJCIyTx/9oADAMBAAIRAxEAPwC8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcbTWsVtbbpy2p80I75evoINpbXC7rZUJclHog/Gx1y49hYq007OK4LvZXt1MK+D4vuRYl9pW2o/jasY9Wcy7FvODda9WsfxcZT68bC9+/wBxXEpNvLbb6W8sF6OgrX9m38v3zKUtdY/6pL5/vkTSt3QKn5lCK/Wm3/BHwev115ul2S+8REEy0tK/yQelW+t9PwS+Gv8Ac89Km/RtL7Wbtv3QI/3lBr9Wef4kEB49LS/8nS1Vy/0WnZ63WNTdyjg+icXFe1w953KVSMlmLTXSnlFHm1Y6Rr0XmlUlH0Pc/SuDK89BH/D8yevXv/a8i6gQbQ2vSeIXUcfpIrd64/AmdtcQqRU6clKL4NPKKFlM63/JF6q6Fi/iz7AAjJQAAAAAAAAAAAAAAAAAAAAAAeW0t7AEpJJt7kuPQQXWXXJ5lStX1Orz/u/E0tb9ZnWboUXikuMk99R/d/iRU09NpEv5WeX5/H6szUatv+Nfn+PyJybbbbbfFt5b9YANAoAAAAAAAAAAAAA6GhtM17ae1Tlu/Og34kvSunrOeDyUVJYZ6m08ot3QOnKN1DMN0l86DfjL4rrOsUlaXVSlUjUpy2ZR4P7PQWlq3p2F1TzujUjjbhn3rqZkanS9n/KPL6GrptT2n8Zc/qdsAFQuAAAAAAAAAAHJ0vp62tnGNaTzJZSUXJ46d3A5/hvYeVP6NkkabJLKiyOV1cXhyRJgRnw3sPKn9GzHhzY9NT2P6nXo9vqs59Iq9ZeZJwRjw4sf0nsf1PL16seip7C+I9Ht9Vj0ir1kSkg2vensZtaT3v8AGtcyf5vxNq516ttiXJqe3h7OYpRzzZ38CvatSUpOUnmTbbb4tviWtLppKW6a5FXValOO2D58zyADTM0A6GiND17mTjSjuXzpN4ivWdxag3fnKXbL7pHK6uLxKSRJCmyazFETBLfAG587T+t8B4A3PnKf1vgcek0+sjv0a31SJAl/4P6/nodkh+D+v56HZIelU+sh6Nd6v0IgCYruf1vPw9iRn8H1bz8PYl8R6VT631PfRbvV+hDQTNdz6r5+H0b+JHdNaGrWs1Gqlh52ZLfGWPt6jqF9c3iL4nE6bILMlw+H2ZzgASkQNnRl/UoVY1abw12Nc6fUawDSawz1cHlFzaK0hC4pQqw4Nb1zxfOmbpWOoumORr8lN+JVwupT/Nfr4dhZxh6insp46dDa09vaQz16gAEBOAAAAAAcDWDVmldyjOUpQlFYyknlZzwfpZy/wf0fPS9lEzIPrre39OrFUXONPZWHCLeZZectLjwLVE7ZNVxlgq311RTnKOT6/g/o+el7KPXgBb+dl2IjC0npXy7j2Z/Af8S0r5dx7M/gXOyv9ov34FTtKPZv9+JJ/AC387LsR6WoNt5yfuIsrzS74Sueyp8DPfWl+m67KnwPOzu9oe76fZslHgDbecqe74GVqFa886navgRWNXSz/wC57Khnb0v/AJn647O72h7vp9kyVPUK15p1O1fAr+/tuSq1KeVLYk45XB4Z1JLSu/PfHX884zJ6YzTe6eSC+UHhRhgsrufQSs8pb3OeevGCUES1NrOGjpVEs7Lqyx04SZzPwg1fMQ+kfwM+dFlls3FdS/C6Fdcdz6FgAiOh9bJ1oXM3TiuShtpKTeeO59hy/wAINbzMPaZwtJa21jl4nT1dSSeeZYQInq9rgriqqNSnsSlnZalmLaWcb+BpaV10r0q9WkqcGoScU23l4PFprXLbjjzOnqa9u7PDkTkEBsteK1SrThyUEpSjF73ne8GzrBrdXoXNSjCEGo7OG853wT+09ektUtrXHnzOVq6nHdnhyJqRLujRXe0HzqovfFnHhr5ctpcnDe0ufp9J2+6HTcrenFcXVgl6WmkSV0Tquhv6s4nfC2qezoitgTSHc+qYWbhJ865JtL17W85GsWrNW0UZ7anB7tpR2Wn0NZZoQ1FU3tjLj8fwZ8tPbBbpR+n5OEACYhMotzVrSPfFtTqN+N82f60dz+PrKiJn3N73FSrQfCSU4+lbn7muwqa2vdXnqi3o7NtmO8sAAGOa4AAAAAAAABxNLazWtvPk6jk5YTajHOM8Mml4dWX6T2P6n205qnQuanKucoSaSeMNPHB4fOaC7n9vz1anZH4FuC0u1bm8lSb1O57cYNnw6sv0nsf1PHh5Z9FT2V8T5fg/t/O1Pq/AytQLbnqVPqr7DrGk8Tn/ALfgfTw7s+ip7K+Jh6+2nk1OyPxPPgDa+XV7Y/dC1BtPOVe2P3RjR+PzH/b8DL19tfIqdkfiQC/uOUq1KmNnblKWFzZZP3qDac06vtRf/wAkAv7fk6tSnlS2JSjlcHhlrTdhl9mVtT22F2mPgTrVj+yqv+v/ACkJ0TfKhUVR041NzWzL5u/nJzqlTc9GThFZcnWSXDe1uOfqvqxcU7hSuKUdjZkt8oTWebcmcRshF27u/lnmdSrlJVbe7n3HSs7uFfR9xWVKFNuNSLUFxSW7fgg+htIqhNzdNVMxlHZlw38/AtTSNinb1qVGEU5RkkliKy0Q7QmqVdSqKvTjsyp1Ip7UZYk1iLXX1nFNtahPPJvln9ZJdXZuhjmlzx1OTqdbTqXtJxW6Dc5Y4JYf24R8NY89+3GOPKSx6ckm1T1fvLa4jUnGKg1KMsTTeMbt3pSNTTGqd7UuK1SEY7Mpya+USeGT9vDtm9yxj7kHYz7FLa85+xuasTv5XEVcQkqezLjRjGOceLvwR/Xb8ur/AOn/AOuJ1tH6saRjVpynLxYyi2uWb3J5e4+2smqt1XuqtWmo7MtjGZ4e6CT3Y6iOE64W53LGMcOXM7nCyVW3bLOevMatS0i69JVoz5LfnNOKjjZ3b0vQdDujfk0P2kf5ZHDpaoaSyszjhNf3suGfQdzuj/ksP2kf5ZEb2u+Di18CRbuwmpJ/EiVPWy/SSVXhu3xi324Jzou6p39m1PGWtmouiS4Ne5oqw7OqumHbV02/k5eLUXVzP1P7SxqNOpRzBYa48P3y8SvRqHGWJvKfDj++fgc/SVlOhVnRnxi8elczXU0apammNBW17GNRT8bHi1INNNdDXOiCab1bubbxpJShnG3Hh1ZXMdUaqFnBvDOb9LOHFLKOOdXVW55O8oPpkov97d9pyj6W9RxnCS/NlF9kkyeUd0Wu8hjLa0+4u8AHzx9AAAAAAAAAACAa13Ok43E1TdRU/F2NleLjZWc4585J+CWmzs5ZwmRW19pHGWvcVR3zpXpuOyQ740r03HZImuktb7ShUlSltylHc9mKcU+jLaNXw9tPIq+zH7xfVtrWVUii6608O1kU2tLPf/zH1x/+v/mfrkr8PbTyKvsx+8efD6183V7I/ePe0u9kjzs6fasis4aVabauMfvnEfWWJ4fW3NSqfV+JAb+45SrUqYUduUpYXBZZNRKbypRwQ3RgsbZZLA1NnKOjpSprMk6riul4WDxq/pGpUeZ3bdRRm50JUlBp7L3LdwT6D7aiqTsMQaUtqphtZSe7DwbFLQtxOtCtcVKbcFNR5Om4NuSxmTbKFjjusTxzfdn3cU/sXq1LbW13Lvx048GvucZ61PvFfLf8zlfmb8bfo2eBvaS0nXjO+UZtKnRpyhuXiyeMvgbT1cl3irTbjtZzt7O75+0fS70DKc7mW2ly1OEFu+a4439Z1vpzw739Y46e/geKF2FnuX0l49+OJy7PSFeFW3j3xyyrQnKcdmOabVPaTyus1rHS1yoWlXvnlJVKijOi1HOy5NZ3LK3JP1kpsdEUaVPZhCClsbLmopN7sNny0JoKjb04JxhKpHazU2EpPMm+PoeDh3V4fD5Ljz8ly5ceB12VmVx+b4cvPrz4HBvdI3Xe8tirJTd06aluyo4liPDhlI+ljpus6lvtSbxRuOUjzSnSysvsOjLVxuGxyn/UcvnZ9Pi8eviKGrijdzuNvMZcp8ns8NtYlv8ATk6dlOGvf08P3B4oWbk/d18c/wDpz9HVZOFvXr3k4SrPMYJLYfjfNxj0dp9e6P8AksP2kf5ZHuGq9VKlTdxmlSmpwi6a2lh5xtes8d0f8lh+0j/LI9jKMr4OL6vpjHd0XQ8cZRpkmunv9/VlbmQYyapk8jc0dpOvQltUZuPVxi/SnuZZWs8m9H1ZPi4Qb9LcSqi1NY/7Nn+zp/xiUtUlvrfj+C9pW9k14fkqsLiD1Rg5SjFc7iu14L3Uo9C7qXzY+hfwPZjBk+bPowAAAAAAAAAAACNaU1Otq9WVVynBy3yUWsN9O9M1lqDaecq9sfukuK21graUVzVUXVUdp7GwpbGznxcY6i5RO2b2qeMd5TvhVWtzhnPcdrwBtvOVe2P3T14BWnl1O2PwIVPS97FuMq1RNbmnOSaZ4emrvz9T6SXxLfY6j2hW7aj2ZN3qDa+cqdsfgQC/tuSq1Kec7EnHK4PDPs9L3Xn6v0kviaZLTCyLe+WSG2dcktkcFldz2adnhPepzz1Zw0Skh+resVhStqcJSVOSWJLZe+XO8pb8nbsdP2laap0qilJ5aWGuHHijLvhNzlLa8GnROChGO5ZwdCtWhCLlOSilxbeEeba5p1FtU5xkumLTXuIN3SpVOUoJ55PZk15Llnf68YNbudqp3zLZzsbL2+j/AA+s7Wl/4e0z+9xw9T/zdnj97yyQcrSen7W3moVZtSazhRb3Za5vQafhlYecfsSIFVY1lRZO7q08OS8yQgjvhpYeXL6OR58NLDy5fRyPewt9V+R529XrLzRJCJ90NN29OMU23NPCTb3ReeHpRsPXaw8qf0bMeG9h0z+jZJVVbCalsfAjstqnBx3ricfVHVWE4qvcxzl+JTawsLnkvsJE7nRjlyHyOeGzsxxno4Yyfe/qutaVJ0G2505OGNz3x/iVFClJyUEm5N4UceNnox0liuD1LlKcmsdO4r2TWmUYxSeeveTDW3VVU1y1tF4ylKmk3jPBx6uokescX/w+osPPJw3Y37nHJud8972salZ/i6cNvpyopP15ONU16s8PEaj3PdspJ+8hUrbNuFna+feTONVbeXjcuXmVudPVm35S7t4/44yf7vjfYc6rPMpSxjLbxzLLzglvc4s9qtVrNboRUV6Zf0XvNO+e2uT8DMojvsivEsQAGCbwAAAAAAAAAAAAAABWndA0dydwqyXi1Vnq21ufuwyLlvax6LVzbzp/nLxoPokuHw9ZUdSDi3GSw02mnxTXE2dHbvrx1XAx9XXssz0Z5ABaKoPtY3c6VSFWDxKLyuj0PqPiA1ngz1cCz7LWGwuqajWcIvdmFTGM9Te5nu505o+1g1BwzvxClhtvrxuXrKtMFL0GGebx3Fv06eOSz3m5pW/ncVp1p8Zc3MkuCRqAwXUklhFNtt5ZkAAAwZABKdU9ae91yNZN085jJb5QzxWOdEs8INGL5RVKeelQ+U7MZKqBVs0lc5buK9xar1c4R28yTa2az98/JUk1STy290ptcN3MiMgE9dcYR2xIJzlOW6RgtrVPR3IW0ItYlLx5dOXzepYILqbofvi4UpL5OniUuhvPix/30FqFDX28oL3v7F7Q1c5v3L7gAGcaIAAAAAAAAAAAAAAAIHr3oDe7ukt396l/P8SeHicE001lPKae9NMkqtdctyI7alZHayjwSXW3VuVvJ1aSzRf/AI30Pq6GRo3YTjOO6PIxJwlCW2QAB0cAAAAAAAwZAAAMAGTBkAA+1pazqzjTprMpPCX++Y+dGlKclCCbk3hJLLbLP1V1ejbQ254dWS3vyV5K+1kF96qjnr0JqKXbLHTqdHQWi4W1GNKO98ZS8qXOzogGI25PLNuMVFYQAB4egAAAAAAAAAAAAAAAAAHzqQUk4ySae5p700QDWbU+UNqrbJyhxdNb5R/V6V1FhglqulU8xIraY2LEijWjBaenNVre4zJfJ1PKitz/AFlzkE0rq3d27blByj5cFtR9a4r1mtTqq7OHJ9z/AHiZVumnX4rv/eRxwAWCuAAAAAAAD3QoTm1GEZSb5opt+4A8Gzo3R1avNU6UXJ87/NS6W+ZEm0NqPVniVy9iPkJpzfpfBE5sLClQgoUoKK6uL62+dlO7WwjwjxfyLlOjlLjLgvmczVvVularafjVWt88bl1R6Ed4AypzlN7pPLNSEFBbY8gADk6AAAAAAAAAAAAAAAAAAAAAAAAAAAORpDVyzrb50kn5UW4S93H1nAu9QIP8VWa6pR2veibAmhfZDkyGdFc+aK0r6iXi+bKEv3nF9jRrS1N0h5tfSR+JagJlrrfAhehq8fMq6Gpd++MIL01F9mTdt9Qa7/GVYR/VTk/fgsQHktba+7yPVoql3kUs9RbSO+o51Ora2I/V3+8kVpZUqS2aUIwXUsGyCCds5/2bZPCqEP6pIAAjJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//Z"
+         alt=" ">
+        <h6> Free Shipping </h6>
+    </div>
+    <div
+    class="fe-box">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36fD7qruHCXVaypDAsdlKyXcphJdfaI0yGQ&usqp=CAU"
+     alt=" ">
+    <h6> Online order </h6>
+</div>
+<div
+class="fe-box">
+<img src="https://blog.resellerclub.com/wp-content/uploads/2015/07/1.png"
+ alt=" ">
+<h6>Promotions </h6>
+</div>
+<div
+class="fe-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFSSa45seJ93HR64gVUzmJtCtKSjubHxz7vg&usqp=CAU"
+ alt=" ">
+<h6> Offers </h6>
+</div>
+<div
+class="fe-box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuvpYsJiBuipGCpuYDeeCIP9TbQ4TP9rIO9XndV9kCwwzKOHuLBvqYVjG9LUeuwPnRNg&usqp=CAU"
+ alt=" ">
+<h6> Support 24/7 </h6>
+</div>
+<div
+class="fe-box">
+<img src="https://thumbs.dreamstime.com/b/investment-icon-blue-color-save-money-hand-well-organized-fully-editable-vector-any-use-like-print-media-web-stock-183440113.jpg"
+ alt=" ">
+<h6> Save money </h6>
+</div>
+
+ </section>
+
+ <section id= "product1" class="section-p1">
+    <h2>Featured product </h2>
+    <p> <b>Trendy Summer collection</b>  </p>
+    <div class="pro-container">
+        <div class="pro">
+        <img src="\img\products\f1.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ZARA</span>
+            <h5> Colored Printed T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$50 </h4>
+        </div>   
+        <a href="#">
+            <i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\f2.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ADIDAS</span>
+            <h5> Green flora print T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$45 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\f3.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ZARA</span>
+            <h5>Flower Printed T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$55 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\f4.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ZARA</span>
+            <h5> Cotton flora T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$53 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\f5.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>H&M</span>
+            <h5>Blue cotton Printed T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$40 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\f6.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ALLEN SOLLY</span>
+            <h5> Cotton Jacket wih shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$60 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\f7.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span> Shivansh ka Purana kapda</span>
+            <h5> Printed shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4> FREE </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\f2.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ALLEN SOLLY</span>
+            <h5>Flora print cotton T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$60 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+        
+
+    
+</section>
+
+<section id="banner" class="section-m1">
+    <h4> 15 day Return policy </h4>
+    <h2> Up to <span> 60% OFF</span> on ALL BRANDS</h2>
+    <button class="normal">  Explore </button>
+</section>
+<section id= "product1" class="section-p1">
+    <h2> New Arrivals</h2>
+    <p> <b>Stylish Summer collection</b>  </p>
+    <div class="pro-container">
+        <div class="pro">
+        <img src="\img\products\n1.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>Louis Vuitton</span>
+            <h5> Plain Blue T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+         </div>
+         <h4>$79 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\n2.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>GUCCI</span>
+            <h5> Formal Gucci ha ha collection T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$60 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\n3.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>Hermes</span>
+            <h5>Plain White T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i> 
+         </div>
+         <h4>$55 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\n4.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>Louis Vuitton</span>
+            <h5> Printed half sleeves T-Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$53 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\n5.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>H&M</span>
+            <h5>Blue cotton Printed T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$40 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\n6.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span>ALLEN SOLLY</span>
+            <h5> Grey cotton Shorts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4>$60 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+
+    <div class="pro">
+        <img src="\img\products\n7.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span> Shivansh ka Purana kapda</span>
+            <h5> Brown 2 Pocket full Slevees T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4> FREE </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+    <div class="pro">
+        <img src="\img\products\n8.jpg "
+             alt="wifi check kr"
+        >
+           <div  class ="des">
+            <span> Louis phillipe </span>
+            <h5>  T-shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              
+         </div>
+         <h4> $57 </h4>
+        </div>
+        <a href="#"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i></a>></a>
+    </div>
+</section>
+<section id="banner1">
+    <div class="banner-box">
+        <h2>Artistic Jewelery</h2>
+        <h3>french Collection</h3>
+       
+    </div>
+    <div class="banner-box banner-box1">
+        <h2>Bomber jackets</h2>
+        <h3>Autmn Collection</h3>
+       
+    </div>
+    <div class="banner-box banner-box2">
+        <h2>Seasonal Sale</h2>
+        <h3>cashbacks and offers</h3>
+       
+    </div>
+    
+</section>
+<section id="newsletter" class="section-p1 section-m1"" >
+    <div class="newstext">
+        <h4> SignUp for the Newsletters</h4>
+        <p> Get an E-mail updates about our lates shop and<span>
+            special offers.
+        </span></p>
+    </div>
+    <div class="form">
+        <input type="text " placeholder="Enter your email id">
+        <button class="normal"> Sign Up</button>
+           
+    </div>
+</section>
+<footer class="section-p1">
+    <div class="col">
+        <img src="/logoop.png" alt="lalalala" width="130">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>456 falah road opposite to burj khalifa near minara masjid ,USA</p>
+        <p><strong>Phone USA:</strong> +01 222 343</p>
+        <p><strong>Personal no. of CEO:</strong> 9833725981 </p>
+        <p><strong>Hours</strong> 24*7 </p>
+        <br>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.youtube.com/"> <i class="fab fa-youtube"></i></a>
+                <a href="https://discord.com/"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+         <div class="copyright">
+        <p>© December 2022, Mohasin Jawale 24 Kalsekar ,<br>
+            The Templates of this Website is inspired by RandomYt channel
+        </p>
+        
+    </div>
+    </div>
+    
+    <div class="col">
+        <h4> About</h4>
+        <a href="#"> About us</a>
+        <a href="#"> Privacy Policies</a>
+        <a href="#"> Terms and conditon</a>
+        <a href="#"> Contact us</a>
+    </div>
+        <div class="col">
+            <h4> My Account</h4>
+            <a href="#"> Sign in</a>
+            <a href="#"> View cart</a>
+            <a href="#"> Track my order</a>
+            <a href="#"> Help us</a>
+        </div>
+
+    <div class="col install">
+        <h4> Install </h4>
+        <p> From Appstore and Playstore</p>
+        <div class="row">
+            <a href="https://www.apple.com/in/app-store/"><img src="/img/pay/app.jpg" alt="playstore"></a>
+            <a href="https://play.google.com/store/games"><img src="/img/pay/play.jpg" alt="Appstore"></a>
+        </div>
+        <p> Secured Payment Gateway</p>
+        <img src="/img/pay/pay.png" alt="payment">
+    </div>
+   
+</footer>
+    <script src="script.js"></script>
+
+</body>
+ 
+</html>
+  
