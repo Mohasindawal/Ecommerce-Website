@@ -9,9 +9,6 @@ This is a simple eCommerce website project built with HTML, CSS, and JavaScript.
 - Responsive design for various screen sizes.
 - Dummy checkout process.
 
-## Preview
-
-![Ecommerce Website Screenshot]()
 
 
 
