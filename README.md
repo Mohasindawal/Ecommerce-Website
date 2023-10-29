@@ -5,7 +5,6 @@ This is a simple eCommerce website project built with HTML, CSS, and JavaScript.
 ## Features
 
 - Product listings with images, names, prices, and descriptions.
-- Shopping cart functionality to add and remove items.
 - Responsive design for various screen sizes.
 
 
